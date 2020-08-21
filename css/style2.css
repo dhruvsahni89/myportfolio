@@ -5,12 +5,10 @@ body{
     background-image: linear-gradient(315deg, #130f40 0%, #000000 74%); 
     margin: 0rem;
     padding: 0rem;
-    
-
-}
+    }
 .color{
-    animation: clr 2s infinite;
 
+    animation: clr 2s infinite;
 }
 @keyframes clr {
     0%{color: #440047;}
@@ -25,7 +23,7 @@ a{
     text-decoration:none;
 }
 .main-nav li a:hover{
-    background: #f3db07;
+    color: #504f4c;
    
 
 }
@@ -167,7 +165,7 @@ font-size: 25px;
         .heading{
             
             margin-left: 560px;
-            margin-top: 25px;
+            margin-top: 70px;
             font-family: cursive;
   width: 50%;
   font-size: 35px; ;
@@ -177,15 +175,14 @@ font-size: 25px;
         }
   
  
-        
-        .skills{
+         .skills{
+
             margin-left: 560px;
-            
-            font-family: cursive;
-  width: 50%;
-  font-size: 35px; 
-  color: white;
-  padding: 10px;
+             font-family: cursive;
+             width: 50%;
+            font-size: 35px; 
+             color: white;
+            padding: 10px;
         }
         .mid{
             display: flex;
@@ -236,5 +233,66 @@ font-size: 25px;
         }
         .cpp{
             width: 80%; ;
+
+        }
+        .social{
+            display: flex;
+            font-family: cursive;
+            font-size: 30px;
+            margin-top: 300px;
+            justify-content: center;
+        }
+        .contact{
+            display: flex;
+            font-family: cursive;
+            font-size: 30px;
+            margin-top: 200px;
+            justify-content: center;
+            color: white;
+            font-family: cursive;
+
+        }
+        .social-icon a{
+            width: 40px;
+            height: 40px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: white;
+            margin: 100px 10px;
+            border-radius: 50%;
+        }
+        .social-icon{
+            display: flex;
+            flex-direction: row;
+            margin-left: 590px;
+        }
+        .social-icon i{
+            color: #000000;
+        }
+        .social-icon a:hover{
+            background-color: #000000;
+            box-shadow: 2px 2px 12px rgba(0, 0,0,0.2);
+            transition: all ease 0.5s;
+
+        }
+        /*.footer{
+            height: 300px;
+            display: flex;
+        }
+        .footer p{
+            font-family: cursive;
+        .footer p:nth-child(1){
+            font-size: 30px;
+            font-weight:bold;
+            color:#191919;
+            line-height:10px;
+        }
+        .footer p:nth-child(2){
+            font-size: 16px;
+            color: #7e7d7d;
+            width: 600px;
+            text-align: center; */
 
         }
