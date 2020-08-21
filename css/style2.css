@@ -2,10 +2,10 @@ html{
     font-size: 62.5%;
 }
 body{
-    background-color:#fff48f;
+    background-image: linear-gradient(315deg, #130f40 0%, #000000 74%); 
     margin: 0rem;
     padding: 0rem;
-    s
+    
 
 }
 .color{
@@ -13,9 +13,9 @@ body{
 
 }
 @keyframes clr {
-    0%{color: #111d5e;}
+    0%{color: #440047;}
     25%{color:#006a71;}
-    50%{color: #111d5e;}
+    50%{color: #440047;}
     100%{color:#006a71;}
 }
 ul{
@@ -33,7 +33,7 @@ a{
 section{
     width: 100%;
     height:95vh ;
-    background-image:url('../images/back2.jpg');
+    background-image:url('../images/2.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -43,11 +43,11 @@ nav{
     justify-content: space-between;
     align-items: center;
     height: 6rem;
-    background-color:#fff48f;
-    box-shadow: 0.2rem 0.2rem 1.2rem
-     rgba(0,0,0,0.2);
+    background-image: linear-gradient(315deg, #130f40 0%, #000000 74%); 
+    box-shadow: 0.2rem 0.2rem 1.2rem;
+    
     padding: 0rem 0.5rem;
-    border-bottom: 2.3px dotted black;
+    border-bottom: 2.3px dotted greenyellow;
 }
 nav ul{
     display: flex;
@@ -55,21 +55,23 @@ nav ul{
 nav ul li a{
     margin: 2.8rem;
     font-family:calibri;
-    color:black ;
-    font-size: 1.5rem;
+    color:white ;
+    font-size:20px;
     font-weight: 700;
 }
 .logo{
     width: 6rem;
+    border: 2px solid white;
+    border-radius: 50%;
 }
 .home{
     font-weight: bold;
-    color: darkslategrey;
+    color: white;
 }
 #model{
     width: 380px;
     height: 380px;
-    border: 2px solid grey;
+    border: 3.8px solid grey;
     border-radius:50%;
     margin-left: 690px;
     
@@ -130,7 +132,7 @@ nav ul li a{
     display: flex;
     margin-top: 80px;
     justify-content: space-between;
-    background-color: #fff48f;
+    background-image: linear-gradient(315deg, #130f40 0%, #000000 74%); 
 }
 .item1{
 border: 2px solid black;
@@ -139,7 +141,7 @@ height: 350px;
 border-radius: 10px;
 font-size: 25px;
     font-family: 'Playball', cursive;
-    background-image: url(../images/contain.jpg);
+    background-image: url(../images/backnew.jpg);
     
 }
 .item2{
@@ -149,7 +151,7 @@ font-size: 25px;
     border-radius: 10px;
     font-size: 25px;
     font-family: 'Playball', cursive;
-    background-image: url(../images/contain.jpg);
+    background-image: url(../images/backnew.jpg);
     
     }
     .item3{
@@ -158,7 +160,81 @@ font-size: 25px;
         height: 350px;
         border-radius: 10px;
         font-size: 25px;
-        background-image: url(../images/contain.jpg);
+        background-image: url(../images/backnew.jpg);
         
     font-family: 'Playball', cursive;
+        }
+        .heading{
+            
+            margin-left: 560px;
+            margin-top: 25px;
+            font-family: cursive;
+  width: 50%;
+  font-size: 35px; ;
+  padding: 10px;
+  color: white;
+  
+        }
+  
+ 
+        
+        .skills{
+            margin-left: 560px;
+            
+            font-family: cursive;
+  width: 50%;
+  font-size: 35px; 
+  color: white;
+  padding: 10px;
+        }
+        .mid{
+            display: flex;
+            border: solid black;
+            margin-left:230px;
+            background: black;
+            border-radius: 10px;
+            height: 350px;
+            width: 850px; ;
+
+        }
+        .elements{
+
+            margin: 60px auto;
+            width: 500px;
+            color:white;
+            font-size: 16px;
+            font-family: cursive;
+
+        }
+        .elements li{
+            list-style: none;
+        }
+        .bar{
+            background: rgb(6, 92, 83);
+            display: block;
+            height: 6px;
+            border: 2px solid rgba(0, 0, 0, 0.3);
+            border-radius: 3px;
+            overflow: hidden;
+            box-shadow: o o 10px #81b6e7b3;
+        }
+        .bar span{
+            height: 6px;
+            float: left;
+            background:#81b6e7b3; 
+        }
+        .html{
+            width: 70%; ;
+        }
+        .css{
+            width: 66%; ;
+
+        }
+        .C{
+            width: 80%; ;
+
+        }
+        .cpp{
+            width: 80%; ;
+
         }
