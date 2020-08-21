@@ -2,7 +2,7 @@ html{
     font-size: 62.5%;
 }
 body{
-    background-color:#ffffdd;
+    background-color:#fff48f;
     margin: 0rem;
     padding: 0rem;
     s
@@ -25,7 +25,7 @@ a{
     text-decoration:none;
 }
 .main-nav li a:hover{
-    background: #fff48f;
+    background: #f3db07;
    
 
 }
@@ -43,10 +43,11 @@ nav{
     justify-content: space-between;
     align-items: center;
     height: 6rem;
-    background-color: antiquewhite;
+    background-color:#fff48f;
     box-shadow: 0.2rem 0.2rem 1.2rem
      rgba(0,0,0,0.2);
     padding: 0rem 0.5rem;
+    border-bottom: 2.3px dotted black;
 }
 nav ul{
     display: flex;
@@ -88,3 +89,76 @@ nav ul li a{
     display: flex;
     margin-top: 40px;
 }
+@media  only screen and (max-width:1074px){
+    #model{
+        margin-left: 600px;
+        position: relative;
+    }
+    .text{
+        margin-left: 95px;  
+    }
+}
+@media  only screen and (max-width:985px){
+    #model{
+        margin-left: 560px;
+        position: relative;
+    }
+    .text{
+        margin-left: 75px;  
+    }
+}
+@media  only screen and (max-width:443px){
+    .text{
+        font-size: 22px;
+        margin-top: 230px;
+        position: absolute;
+    }
+    .responsive{
+        flex-direction: column;
+    }
+    #model{
+              width: 240px;
+              height: 240px;
+              margin-left: 75px;
+    }
+}
+
+.container{
+    width: 100%;
+    
+    height: 350px;
+    display: flex;
+    margin-top: 80px;
+    justify-content: space-between;
+    background-color: #fff48f;
+}
+.item1{
+border: 2px solid black;
+width: 31%;
+height: 350px;
+border-radius: 10px;
+font-size: 25px;
+    font-family: 'Playball', cursive;
+    background-image: url(../images/contain.jpg);
+    
+}
+.item2{
+    border: 2px solid black;
+    width: 31%;
+    height: 350px;
+    border-radius: 10px;
+    font-size: 25px;
+    font-family: 'Playball', cursive;
+    background-image: url(../images/contain.jpg);
+    
+    }
+    .item3{
+        border: 2px solid black;
+        width: 31%;
+        height: 350px;
+        border-radius: 10px;
+        font-size: 25px;
+        background-image: url(../images/contain.jpg);
+        
+    font-family: 'Playball', cursive;
+        }
