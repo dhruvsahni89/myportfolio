@@ -92,39 +92,7 @@ nav ul li a{
     display: flex;
     margin-top: 40px;
 }
-@media  only screen and (max-width:1074px){
-    #model{
-        margin-left: 600px;
-        position: relative;
-    }
-    .text{
-        margin-left: 95px;  
-    }
-}
-@media  only screen and (max-width:985px){
-    #model{
-        margin-left: 560px;
-        position: relative;
-    }
-    .text{
-        margin-left: 75px;  
-    }
-}
-@media  only screen and (max-width:443px){
-    .text{
-        font-size: 22px;
-        margin-top: 230px;
-        position: absolute;
-    }
-    .responsive{
-        flex-direction: column;
-    }
-    #model{
-              width: 240px;
-              height: 240px;
-              margin-left: 75px;
-    }
-}
+
 
 .container{
     width: 100%;
@@ -346,10 +314,18 @@ font-size: 25px;
             text-align: center;
             margin-top: 10px;
         }
+        @media only screen and (max-width:1000px){
+            body{background-image: linear-gradient(315deg, #130f40 0%, #000000 74%);
+            background-repeat: no-repeat;
+        background-position: center;
+    background-clip: cover;}
+        
+     
+}
 
-        @media only screen and (max-width:425px){
+        @media only screen and (max-width:1100px){
             #model{
-                margin-left: 50px;
+                margin-left: 70px;
                 height: 250px;
                 width: 250px;
             }
@@ -357,15 +333,22 @@ font-size: 25px;
                 
                 display: inline-block;
     margin-left: 30px;
-
-    font-size: 18px;
+margin-top:260px ;
+    font-size: 20px;
     font-family:cursive;
     
             }
             #one,#two{
                 color: yellowgreen;
             }
-            
+            .heading{
+                margin-left: 90px;
+                margin-top: 120px;
+            }
+            .skills{
+                margin-left: 90px;
+            }
+          
 .container{
     width: 100%;
     
